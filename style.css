@@ -39,7 +39,7 @@ span{
 
 #chkbox-1:checked ~  #item-body-1 {
     transform: scale(1);
-    height: 90px; 
+    height: 90px;
 }
 
 #chkbox-2:checked ~ #item-body-2 {
@@ -80,5 +80,59 @@ span{
 #rad-2:checked ~ #item-body-rad-2 {
     transform: scale(1);
     height: 50px; 
-    
+
 }
+
+
+@media only screen and (max-width: 900px) {
+
+    #chkbox-1:checked ~  #item-body-1 {
+        transform: scale(1);
+        height: 140px;
+    }
+
+    #chkbox-1:checked ~  #item-body-2 {
+        transform: scale(1);
+        height: 60px;
+    }
+    #chkbox-1:checked ~  #item-body-3 {
+        transform: scale(1);
+        height: 100px;
+    }
+
+    #rad-2:checked ~ #item-body-rad-2 {
+        transform: scale(1);
+        height: 60px; 
+    }
+    #rad-1:checked ~ #item-body-rad-1 {
+        transform: scale(1);
+        height: 140px; 
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    #chkbox-1:checked ~  #item-body-1 {
+        transform: scale(1);
+        height: 160px;
+    }
+
+    #chkbox-1:checked ~  #item-body-2 {
+        transform: scale(1);
+        height: 70px;
+    }
+    #chkbox-1:checked ~  #item-body-3 {
+        transform: scale(1);
+        height: 120px;
+    }
+
+    #rad-2:checked ~ #item-body-rad-2 {
+        transform: scale(1);
+        height: 70px; 
+    }
+    #rad-1:checked ~ #item-body-rad-1 {
+        transform: scale(1);
+        height: 160px; 
+    }
+  }
