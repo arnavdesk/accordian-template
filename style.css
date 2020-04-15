@@ -1,4 +1,3 @@
-
 .arrow{
     color: white;
 }
@@ -37,6 +36,7 @@ span{
 #chkbox-1:checked ~ label #arr-1 {
     transform: rotate(90deg);
 }
+
 #chkbox-1:checked ~  #item-body-1 {
     transform: scale(1);
     height: 90px; 
@@ -80,4 +80,5 @@ span{
 #rad-2:checked ~ #item-body-rad-2 {
     transform: scale(1);
     height: 50px; 
+    
 }
