@@ -1,0 +1,83 @@
+
+.arrow{
+    color: white;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+    padding-right: 6px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    background-color: purple;
+    margin: 0px;
+}
+
+.item-body{
+    height: 0px;
+    transform: scale(0);
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.all-checkbox{
+    display: none;
+}
+
+span{
+    transition: all 0.5s ease-in-out;
+}
+
+#chkbox-1:checked ~ label #arr-1 {
+    transform: rotate(90deg);
+}
+#chkbox-1:checked ~  #item-body-1 {
+    transform: scale(1);
+    height: 90px; 
+}
+
+#chkbox-2:checked ~ #item-body-2 {
+    transform: scale(1);
+    height: 50px; 
+}
+
+#chkbox-2:checked ~ label #arr-2 {
+    transform: rotate(90deg);
+}
+
+#chkbox-3:checked ~ #item-body-3 {
+    transform: scale(1);
+    height: 70px; 
+}
+
+#chkbox-3:checked ~ label #arr-3 {
+    transform: rotate(90deg);
+}
+
+.all-radio{
+    display: none;
+}
+
+#rad-1:checked ~ label #arr-rad-1 {
+    transform: rotate(90deg);
+}
+
+#rad-1:checked ~ #item-body-rad-1 {
+    transform: scale(1);
+    height: 90px; 
+}
+
+#rad-2:checked ~ label #arr-rad-2 {
+    transform: rotate(90deg);
+}
+
+#rad-2:checked ~ #item-body-rad-2 {
+    transform: scale(1);
+    height: 50px; 
+}
