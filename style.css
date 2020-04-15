@@ -17,7 +17,8 @@
 }
 
 .item-body{
-    height: 0px;
+    max-height: 0;
+    overflow: hidden;
     transform: scale(0);
     box-sizing: border-box;
     width: 100%;
@@ -39,12 +40,12 @@ span{
 
 #chkbox-1:checked ~  #item-body-1 {
     transform: scale(1);
-    height: 90px;
+    max-height: 200px;
 }
 
 #chkbox-2:checked ~ #item-body-2 {
     transform: scale(1);
-    height: 50px; 
+    max-height: 200px;
 }
 
 #chkbox-2:checked ~ label #arr-2 {
@@ -53,7 +54,8 @@ span{
 
 #chkbox-3:checked ~ #item-body-3 {
     transform: scale(1);
-    height: 70px; 
+    max-height: 200px;
+     
 }
 
 #chkbox-3:checked ~ label #arr-3 {
@@ -70,7 +72,7 @@ span{
 
 #rad-1:checked ~ #item-body-rad-1 {
     transform: scale(1);
-    height: 90px; 
+    max-height: 200px;
 }
 
 #rad-2:checked ~ label #arr-rad-2 {
@@ -79,11 +81,11 @@ span{
 
 #rad-2:checked ~ #item-body-rad-2 {
     transform: scale(1);
-    height: 50px; 
+    max-height: 200px; 
 
 }
 
-
+/* 
 @media only screen and (max-width: 900px) {
 
     #chkbox-1:checked ~  #item-body-1 {
@@ -125,4 +127,4 @@ span{
     #rad-1:checked ~ #item-body-rad-1 {
         height: 160px; 
     }
-  }
+  } */
