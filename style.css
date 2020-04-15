@@ -90,10 +90,10 @@ span{
         height: 140px;
     }
 
-    #chkbox-1:checked ~  #item-body-2 {
+    #chkbox-2:checked ~  #item-body-2 {
         height: 60px;
     }
-    #chkbox-1:checked ~  #item-body-3 {
+    #chkbox-2:checked ~  #item-body-3 {
         height: 100px;
     }
 
@@ -112,10 +112,10 @@ span{
         height: 160px;
     }
 
-    #chkbox-1:checked ~  #item-body-2 {
+    #chkbox-2:checked ~  #item-body-2 {
         height: 70px;
     }
-    #chkbox-1:checked ~  #item-body-3 {
+    #chkbox-2:checked ~  #item-body-3 {
         height: 120px;
     }
 
